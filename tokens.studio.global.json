@@ -1,0 +1,312 @@
+{
+  "colors": {
+    "primary": {
+      "$type": "color",
+      "$value": "#4CAF4F"
+    },
+    "primary-shade-s2": {
+      "$type": "color",
+      "$value": "#388E3B"
+    },
+    "primary-shade-s5": {
+      "$type": "color",
+      "$value": "#103E13"
+    },
+    "primary-tint-t4": {
+      "$type": "color",
+      "$value": "#C8E6C9"
+    },
+    "primary-tint-t5": {
+      "$type": "color",
+      "$value": "#E8F5E9"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "#263238"
+    },
+    "text-heading": {
+      "$type": "color",
+      "$value": "#171D16"
+    },
+    "text-primary": {
+      "$type": "color",
+      "$value": "#18191F"
+    },
+    "text-strong": {
+      "$type": "color",
+      "$value": "#4D4D4D"
+    },
+    "text-muted": {
+      "$type": "color",
+      "$value": "#717171"
+    },
+    "text-subtle": {
+      "$type": "color",
+      "$value": "#89939E"
+    },
+    "surface": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "surface-alt": {
+      "$type": "color",
+      "$value": "#F5F7FA"
+    },
+    "border-subtle": {
+      "$type": "color",
+      "$value": "#D9DBE1"
+    },
+    "border-muted": {
+      "$type": "color",
+      "$value": "#BECAB8"
+    }
+  },
+  "typography": {
+    "headline-1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "Semi Bold",
+        "fontSize": "64px",
+        "lineHeight": "76px",
+        "letterSpacing": "0px"
+      }
+    },
+    "headline-2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "Semi Bold",
+        "fontSize": "36px",
+        "lineHeight": "44px",
+        "letterSpacing": "0px"
+      }
+    },
+    "headline-3": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "Bold",
+        "fontSize": "28px",
+        "lineHeight": "36px",
+        "letterSpacing": "0px"
+      }
+    },
+    "headline-4": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "Semi Bold",
+        "fontSize": "20px",
+        "lineHeight": "28px",
+        "letterSpacing": "0px"
+      }
+    },
+    "body-md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "Regular",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "0px"
+      }
+    },
+    "body-md-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "Medium",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "0px"
+      }
+    },
+    "body-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "Regular",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "letterSpacing": "0px"
+      }
+    },
+    "label-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": "Medium",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "letterSpacing": "0px"
+      }
+    }
+  },
+  "rounded": {
+    "sm": {
+      "$type": "borderRadius",
+      "$value": "4px"
+    },
+    "md": {
+      "$type": "borderRadius",
+      "$value": "6px"
+    },
+    "lg": {
+      "$type": "borderRadius",
+      "$value": "8px"
+    },
+    "full": {
+      "$type": "borderRadius",
+      "$value": "9999px"
+    }
+  },
+  "spacing": {
+    "xs": {
+      "$type": "spacing",
+      "$value": "4px"
+    },
+    "sm": {
+      "$type": "spacing",
+      "$value": "8px"
+    },
+    "md": {
+      "$type": "spacing",
+      "$value": "16px"
+    },
+    "lg": {
+      "$type": "spacing",
+      "$value": "24px"
+    },
+    "xl": {
+      "$type": "spacing",
+      "$value": "32px"
+    },
+    "xl-2": {
+      "$type": "spacing",
+      "$value": "40px"
+    },
+    "xl-3": {
+      "$type": "spacing",
+      "$value": "48px"
+    },
+    "xl-4": {
+      "$type": "spacing",
+      "$value": "64px"
+    },
+    "section-y": {
+      "$type": "spacing",
+      "$value": "84px"
+    },
+    "container": {
+      "$type": "spacing",
+      "$value": "1110px"
+    },
+    "page-margin": {
+      "$type": "spacing",
+      "$value": "144px"
+    },
+    "gutter": {
+      "$type": "spacing",
+      "$value": "24px"
+    }
+  },
+  "components": {
+    "button-primary": {
+      "backgroundColor": {
+        "$type": "color",
+        "$value": "{colors.primary}"
+      },
+      "textColor": {
+        "$type": "color",
+        "$value": "{colors.surface}"
+      },
+      "rounded": {
+        "$type": "borderRadius",
+        "$value": "{rounded.sm}"
+      },
+      "typography": {
+        "$type": "typography",
+        "$value": "{typography.body-md-medium}"
+      },
+      "height": {
+        "$type": "spacing",
+        "$value": "52px"
+      },
+      "padding": {
+        "$type": "spacing",
+        "$value": "14px 32px"
+      }
+    },
+    "button-auth": {
+      "backgroundColor": {
+        "$type": "color",
+        "$value": "{colors.primary-tint-t5}"
+      },
+      "textColor": {
+        "$type": "color",
+        "$value": "{colors.primary}"
+      },
+      "rounded": {
+        "$type": "borderRadius",
+        "$value": "{rounded.md}"
+      },
+      "typography": {
+        "$type": "typography",
+        "$value": "{typography.label-sm}"
+      },
+      "height": {
+        "$type": "spacing",
+        "$value": "40px"
+      },
+      "padding": {
+        "$type": "spacing",
+        "$value": "10px 20px"
+      }
+    },
+    "card": {
+      "backgroundColor": {
+        "$type": "color",
+        "$value": "{colors.surface}"
+      },
+      "textColor": {
+        "$type": "color",
+        "$value": "{colors.text-muted}"
+      },
+      "rounded": {
+        "$type": "borderRadius",
+        "$value": "{rounded.lg}"
+      },
+      "typography": {
+        "$type": "typography",
+        "$value": "{typography.body-sm}"
+      },
+      "width": {
+        "$type": "spacing",
+        "$value": "299px"
+      }
+    },
+    "marketing-card": {
+      "backgroundColor": {
+        "$type": "color",
+        "$value": "{colors.surface-alt}"
+      },
+      "textColor": {
+        "$type": "color",
+        "$value": "{colors.text-muted}"
+      },
+      "rounded": {
+        "$type": "borderRadius",
+        "$value": "{rounded.lg}"
+      },
+      "typography": {
+        "$type": "typography",
+        "$value": "{typography.headline-4}"
+      },
+      "width": {
+        "$type": "spacing",
+        "$value": "317px"
+      }
+    }
+  }
+}
