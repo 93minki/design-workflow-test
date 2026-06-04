@@ -14,6 +14,9 @@
   --color-surface-alt: #f5f7fa;
   --color-border-subtle: #d9dbe1;
   --color-border-muted: #becab8;
+  --color-blog-card-panel: #eaf0e4;
+  --color-blog-card-heading: #3f4a3c;
+  --color-blog-card-link: #006e1b;
   --font-headline-1: "Inter";
   --font-headline-2: "Inter";
   --font-headline-3: "Inter";
@@ -71,4 +74,3 @@
   --spacing-page-margin: 144px;
   --spacing-gutter: 24px;
 }
-
